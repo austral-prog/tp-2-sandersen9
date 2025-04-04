@@ -16,5 +16,4 @@ def change():
     print(f"{vuelto_entero_INT}")
     print("Centavos:")
     print(f"{vuelto_decimal_INT}")
-
 change() 
