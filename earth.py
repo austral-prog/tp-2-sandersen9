@@ -1,9 +1,10 @@
 def earth():
-    paisy = "Barbados"
-    paisx = "Bangladesh"
+	y = "Barbados"
+	x = "Bangladesh"
 
-    resultadox = paisx<paisy
-    resultadoy = paisx>paisy
+	first_in_dictionary = x < y
+	second_in_dictionary = x > y
 
-    print(f"The result of {paisx} comes first in the dictionary than {paisy} is {resultadox}")
-    print(f"The result of {paisy} comes first in the dictionary than {paisx} is {resultadoy}")
+	print(f"The result of {x} comes first in the dictionary than {y} is {first_in_dictionary}")
+	print(f"The result of {y} comes first in the dictionary than {x} is {second_in_dictionary}")
+earth()
