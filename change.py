@@ -1,19 +1,14 @@
-def change(): 
-    expense = 23.75
-    money = 100
-    vuelto_entero = (money - expense)
-    vuelto_decimal = ((money - expense) - vuelto_entero) //1 
-    vuelto_entero_INT = int(vuelto_entero)
-    vuelto_decimal_INT = int (vuelto_decimal)
+def change():
+    gasto = 23.75
+    dinero_recibido = 100
     print("Ingresar gasto:")
-    print(f"{expense}")
+    print(gasto)
     print("Dinero recibido")
-    print(money)
-    print("")
-    print("Vuelto")
-    print("")
-    print("Pesos")
-    print(f"{vuelto_entero_INT}")
-    print("Centavos:")
-    print(f"{vuelto_decimal_INT}")
-change() 
+    print(dinero_recibido)
+    vuelto = dinero_recibido - gasto
+    pesos = int(vuelto)
+    centavos = int(round((vuelto - pesos) * 100))
+
+    print("\nVuelto\n")
+    print(f"Pesos:\n{pesos}")
+    print(f"Centavos:\n{centavos}")
